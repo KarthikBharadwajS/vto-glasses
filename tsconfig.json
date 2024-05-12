@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "strictNullChecks": false,
+    "skipLibCheck": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "baseUrl": "./",
+
+    "paths": {
+      "@framework/*": ["./src/assets/js/cubism/framework/src/*"],
+      "@/*": ["./src/*"]
+    },
+
+    "noImplicitAny": true,
+    "useUnknownInCatchVariables": true,
+    "outDir": "./dist"
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

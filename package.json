@@ -1,0 +1,27 @@
+{
+  "name": "ai-character-assistant",
+  "version": "1.0.0",
+  "description": "- campus\r - examination centers\r - talk to get assistance kind of scenarios",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build --mode development",
+    "build:prod": "vite build",
+    "dev": "npm run build && live-server dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@types/dom-speech-recognition": "^0.0.4",
+    "@types/three": "^0.164.0",
+    "@types/uuid": "^9.0.8",
+    "live-server": "^1.2.2",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.10"
+  },
+  "dependencies": {
+    "three": "^0.164.1"
+  }
+}
