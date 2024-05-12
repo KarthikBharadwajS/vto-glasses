@@ -13,7 +13,6 @@ export default defineConfig((env: ConfigEnv): UserConfig => {
     resolve: {
       extensions: [".ts", ".js"],
       alias: {
-        "@framework": path.resolve(__dirname, "./src/assets/js/cubism/framework/src"),
         "@": path.resolve(__dirname, "./src"),
       },
     },
